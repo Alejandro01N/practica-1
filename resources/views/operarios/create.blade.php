@@ -50,11 +50,16 @@
                             <label for="nombre" class="form-label">Nombre:</label>
                             <input type="text" class="form-control" name=nombre"" id="nombre" value="{{ old('nombre') }}" required>
                         </div>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Apellido:</label>
+                            <input type="text" class="form-control" name=nombre"" id="nombre" value="{{ old('nombre') }}" required>
+                        </div>
                         <div class="ND mb-3">
                             <div class="direccion">
                                 <label for="correo" class="form-label ">Correo:</label>
                                 <input type="text" class="form-control " name="correo" id="correo" value="{{ old('correo') }}" >
                             </div>
+                            
                             <div class="">
                                 <label for="sueldo" class="form-label"">Sueldo:</label>
                                 <input type="number" class="form-control" name="sueldo" id="sueldo" value="{{ old('sueldo') }}" required>
